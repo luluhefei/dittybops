@@ -1,2 +1,1 @@
-# dittybops
-A website for Ditty Bops.
+# class-directory
