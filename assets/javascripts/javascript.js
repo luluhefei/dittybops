@@ -15,3 +15,17 @@ function stickynav() {
 $(function () {
 $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
 });
+
+// MDB filter
+$(function() {
+var selectedClass = "";
+$(".filter").click(function(){
+selectedClass = $(this).attr("data-rel");
+$("#merch-gallery").fadeTo(100, 0.1);
+$("#merch-gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
+setTimeout(function() {
+$("."+selectedClass).fadeIn().addClass('animation');
+$("#merch-gallery").fadeTo(300, 1);
+}, 300);
+});
+});

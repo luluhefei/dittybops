@@ -238,6 +238,10 @@ body {
   padding-top: 40px;
 }
 
+.padding-bottom {
+  padding-bottom: 40px;
+}
+
 .main-container-discography {
   min-height: 230vh; /* will cover the 230% of viewport */
   overflow: hidden;
@@ -289,7 +293,8 @@ body {
 }
 
 .column {
-  padding-left: 15px;
+  padding-left: 55px;
+  width: 100%;
 }
 
 .video-gallery {
@@ -311,4 +316,59 @@ body {
   width: 6%;
   border-right: 1px solid #e2e2e2;
   height: 145vh;
+}
+
+.container3 {
+  float: left;
+  padding-left: 200px;
+  max-width: 25%;
+}
+
+.merch-filter {
+  display: inline-block;
+  width: 30%;
+  padding-left: 20%;
+}
+
+.merch-filter-item {
+  padding: 20px;
+  font-weight: 300;
+}
+
+.merch-gallery {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 60%;
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+
+.merch-gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+
+.merch-gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+@media (max-width: 450px) {
+.merch-gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
 }
