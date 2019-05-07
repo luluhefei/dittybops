@@ -27,12 +27,15 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+  <!-- FancyBox css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
 </head>
 
 <body>
 <div class="main-container">
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg" id="header">
     <div class="container">
       <a class="navbar-brand" href="index.html">
         <img src="assets/images/general/logo.svg" alt="Ditty Bops logo.">
@@ -70,37 +73,38 @@
 <!-- Page Content -->
 <div class="container">
 
+
 <section class="img-gallery padding-top">
   <p class="important-text">Images<p>
   <div class="row">
     <div class="column">
-      <a href="./assets/images/media/color/1.jpg" data-featherlight="image">
+      <a data-fancybox="gallery" href="./assets/images/media/bw/1.png">
         <img class="img-gallery-item" src="./assets/images/media/bw/1.png" alt="An image of The Ditty Bops.">
       </a>
 
-      <a href="./assets/images/media/color/2.jpg" data-featherlight="image">
+      <a data-fancybox="gallery" href="./assets/images/media/bw/2.png">
         <img class="img-gallery-item" src="./assets/images/media/bw/2.png" alt="An image of The Ditty Bops.">
       </a>
 
-      <a href="./assets/images/media/color/4.png" data-featherlight="image">
+      <a data-fancybox="gallery" href="./assets/images/media/bw/4.png">
         <img class="img-gallery-item" src="./assets/images/media/bw/4.png" alt="An image of The Ditty Bops.">
       </a>
 
-      <a href="./assets/images/media/color/6.jpg" data-featherlight="image">
+      <a data-fancybox="gallery" href="./assets/images/media/bw/6.png">
         <img class="img-gallery-item" src="./assets/images/media/bw/6.png" alt="An image of The Ditty Bops.">
       </a>
    </div>
 
       <div class="column">
-        <a href="./assets/images/media/color/7.jpg" data-featherlight="image">
+        <a data-fancybox="gallery" href="./assets/images/media/bw/7.png">
           <img class="img-gallery-item" src="./assets/images/media/bw/7.png" alt="An image of The Ditty Bops.">
         </a>
 
-        <a href="./assets/images/media/color/8.jpg" data-featherlight="image">
+        <a data-fancybox="gallery" href="./assets/images/media/bw/8.png">
           <img class="img-gallery-item" src="./assets/images/media/bw/8.png" alt="An image of The Ditty Bops.">
         </a>
 
-        <a href="./assets/images/media/color/9.jpg" data-featherlight="image">
+        <a data-fancybox="gallery" href="./assets/images/media/bw/9.png">
           <img class="img-gallery-item" src="./assets/images/media/bw/9.png" alt="An image of The Ditty Bops.">
         </a>
     </div>
@@ -151,6 +155,10 @@
 
 <!--FeatherLight JavaScript -->
 <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- FancyBox JS -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
 
 <!-- custom JavaScript -->
 <script src="./assets/javascripts/javascript.js"></script>
