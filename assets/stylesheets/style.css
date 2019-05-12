@@ -237,6 +237,9 @@ body {
 .padding-top {
   padding-top: 40px;
 }
+.padding-top-50 {
+  padding-top: 50px;
+}
 
 .padding-bottom {
   padding-bottom: 40px;
@@ -371,4 +374,23 @@ column-width: 100%;
 padding-left: 1.1rem;
 padding-right: 1.1rem;
 }
+}
+
+.container-tourdates {
+  text-align: center;
+}
+
+.image-centered {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  padding-top: 20px;
+}
+
+.tourdates-table {
+  position: relative;
+  width: 50%;
+  transform: translateY(-250px);
+  margin-left: 25%;
+
 }
