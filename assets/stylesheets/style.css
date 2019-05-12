@@ -386,12 +386,15 @@ padding-right: 1.1rem;
   display: inline-block;
   width: 60px;
   padding-top: 20px;
+  z-index: 9999;
 }
 
 .tourdates-table {
   position: relative;
   width: 50%;
-  transform: translateY(-250px);
   margin-left: 25%;
+}
 
+.moveup250px {
+  transform: translateY(-250px);
 }
