@@ -150,6 +150,7 @@ body {
   font-family: 'Indie Flower', cursive;
   font-weight: 100;
   color: #333333;
+  z-index: 9999;
 }
 
 .name2 {
