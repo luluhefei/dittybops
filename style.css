@@ -114,6 +114,9 @@ body {
   margin-top: 0px;
 }
 
+.img .cover-image {
+  padding-top: 10px;
+}
 .cover-balloons {
   margin-top: 50px;
   height: 140px;
@@ -150,6 +153,7 @@ body {
   font-family: 'Indie Flower', cursive;
   font-weight: 100;
   color: #333333;
+  z-index: 9999;
 }
 
 .name2 {
@@ -237,6 +241,11 @@ body {
 .padding-top {
   padding-top: 40px;
 }
+
+.padding-top-30 {
+  padding-top: 30px;
+}
+
 
 .padding-bottom {
   padding-bottom: 40px;
