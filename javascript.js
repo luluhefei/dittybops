@@ -13,18 +13,19 @@ function stickynav() {
 }
 
 $(function() {
-	var selectedClass = "";
-	$(".filter").click(function(){
-		selectedClass = $(this).attr("data-rel");
-		$(".filter").removeClass('active');
-		$(this).toggleClass('active');
+  var selectedClass = "";
+  $(".filter").click(function(){
+    selectedClass = $(this).attr("data-rel");
+    $(".filter").removeClass('active');
+    $(this).toggleClass('active');
 
-		$("#merch-gallery").fadeTo(100, 0.1);
-		$("#merch-gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
-		
-		setTimeout(function() {
-			$("."+selectedClass).fadeIn().addClass('animation');
-			$("#merch-gallery").fadeTo(300, 1);
-		}, 300);
+
+    $("#merch-gallery").fadeTo(100, 0.1);
+    $("#merch-gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
+
+    setTimeout(function() {
+      $("."+selectedClass).fadeIn().addClass('animation');
+      $("#merch-gallery").fadeTo(300, 1);
+    }, 300);
 });
 });
